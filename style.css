@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149152829.jpg?w=900&t=st=1700757842~exp=1700758442~hmac=af8b03516a8cbb09625f2f0a561cd79a38821e21dd874f627e062f5c444a38ae");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+h1{
+    text-align: center;
+    color: orangered;
+    font-family: initial;
+    font-size: 40px;
+
+}
+.container{
+    width: 420px;
+    height: 520px;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    padding: 10px 30 px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: orangered;
+    transform: translate(-50%, -30%);
+    box-sizing: border-box;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+
+form{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+input{
+    width: 90%;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid orangered;
+    outline: none;
+}
+button{
+    width: 50%;
+    color: white;
+    background-color: darkred;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
